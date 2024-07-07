@@ -8,9 +8,23 @@ import userRoute from "./routes/users.js";
 import authRoute from "./routes/auth.js";
 import reviewRoute from "./routes/reviews.js";
 import bookingRoute from "./routes/bookings.js";
+import path from "path";
+import { fileURLToPath } from "url";
+
+//deploy start
+const app = express();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+app.use(express.static(path.join(__dirname, "./frontend/build")));
+app.get("*", function (req, res) {
+  res.sendFile(path.join(__dirname, "/frontend/build", "index.html"));
+});
+console.log(__dirname);
+
+///deploy end
 
 dotenv.config();
-const app = express();
 const port = process.env.PORT || 8000;
 const corsOptions = {
   origin: true,
