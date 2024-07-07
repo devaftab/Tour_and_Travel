@@ -8,7 +8,7 @@ https://github.com/dev_aftab/Tour_and_Travel
 - 
 # How to run this project locally:
 ## Prerequisites:
-Before running Code Bazaar locally, ensure that you have the following software installed on your machine:
+Before running Tour and Travel locally, ensure that you have the following software installed on your machine:
 
 Node.js: You can download it from the official Node.js website: https://nodejs.org
 
