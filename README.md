@@ -24,7 +24,7 @@ Make sure to have these prerequisites in place before proceeding with the setup.
 1. Clone the repository:
 
    ```shell
-   git clone <repository-url>
+   git clone https://github.com/devaftab/Tour_and_Travel.git
    ```
 
 2. Install dependencies: <br>
