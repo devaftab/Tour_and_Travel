@@ -42,11 +42,11 @@ Make sure to have these prerequisites in place before proceeding with the setup.
 3. Start the development environment:
 
    ```shell
-   npm run dev
+   npm start
    ```
 
    Use this command inside frontend and backend folder to start the server and client
 
 4. Access Tour_and_Travel:
 
-   Open your web browser and navigate to `http://localhost:5173/` to access the Tour_and_Travel website.
+   Open your web browser and navigate to `http://localhost:3000/` to access the Tour_and_Travel website.
