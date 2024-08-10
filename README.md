@@ -1,6 +1,6 @@
 # About
 
-https://github.com/dev_aftab/Tour_and_Travel
+Website live at : https://tour-and-travel-jif8.onrender.com/home
 
 # Tech Stack
 - This is built using the MERN (MongoDB, Express.js, React, Node.js) stack. <br>
