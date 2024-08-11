@@ -1,6 +1,6 @@
 # About
 
-https://github.com/dev_aftab/Tour_and_Travel
+Website live at : [Tour_and_travel](https://tour-and-travel-jif8.onrender.com/home)
 
 # Tech Stack
 - This is built using the MERN (MongoDB, Express.js, React, Node.js) stack. <br>
@@ -24,7 +24,7 @@ Make sure to have these prerequisites in place before proceeding with the setup.
 1. Clone the repository:
 
    ```shell
-   git clone <repository-url>
+   git clone https://github.com/devaftab/Tour_and_Travel.git
    ```
 
 2. Install dependencies: <br>
@@ -42,11 +42,11 @@ Make sure to have these prerequisites in place before proceeding with the setup.
 3. Start the development environment:
 
    ```shell
-   npm run dev
+   npm start
    ```
 
    Use this command inside frontend and backend folder to start the server and client
 
 4. Access Tour_and_Travel:
 
-   Open your web browser and navigate to `http://localhost:5173/` to access the Tour_and_Travel website.
+   Open your web browser and navigate to `http://localhost:3000/` to access the Tour_and_Travel website.
