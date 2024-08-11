@@ -22,7 +22,7 @@ export const register = async (req, res) => {
   } catch (error) {
     res
       .status(500)
-      .json({ success: false, message: "Failed to create! Try again." });
+      .json({ success: false, message: "Email or username already exist" });
   }
 };
 
