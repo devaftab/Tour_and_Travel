@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build":"npm install --prefix ./frontend && npm run build --prefix ./frontend && npm install"
+    "build": "npm install --prefix ./frontend && npm run build --prefix ./frontend && npm install"
   },
   "keywords": [],
   "author": "",
@@ -23,5 +23,5 @@
     "mongoose": "^6.10.0",
     "nodemon": "^2.0.20"
   },
-  "proxy" : " http://172.16.2.194:3000"
+  "proxy": " http://172.16.2.194:3000"
 }

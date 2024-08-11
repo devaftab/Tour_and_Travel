@@ -24,7 +24,7 @@ app.get("*", function (req, res) {
 ///deploy end
 
 dotenv.config();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 4000;
 const corsOptions = {
   origin: true,
   credentials: true,
