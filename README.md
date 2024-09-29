@@ -5,7 +5,7 @@ Website live at : [Tour_and_travel](https://tour-and-travel-jif8.onrender.com/ho
 # Tech Stack
 - This is built using the MERN (MongoDB, Express.js, React, Node.js) stack. <br>
 - MongoDB handles data storage, Express.js builds server-side APIs, Node.js powers the backend for efficient request handling, and React delivers a responsive and interactive front.
-- 
+
 # How to run this project locally:
 ## Prerequisites:
 Before running Tour and Travel locally, ensure that you have the following software installed on your machine:
